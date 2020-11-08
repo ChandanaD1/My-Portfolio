@@ -1,0 +1,65 @@
+html{
+    background-image: linear-gradient(rgb(124, 224, 255), rgb(0, 102, 255));
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.child img{
+    border: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+    width: 300;
+    height: 300;
+    margin-top: 20px;
+}
+.photo{
+    display: flex;
+    justify-content: flex-end;
+}
+.child h2{
+    font-size: 50px;
+    text-align: center;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.child {
+    position: relative;
+}
+
+.child:hover h2{
+    opacity: 1;
+}
+
+.child:hover img{
+    opacity: 0.3;
+}
+
+.aboutme{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.intro{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
